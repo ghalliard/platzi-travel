@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card{
+    @apply w-36 h-44 rounded-lg overflow-hidden flex flex-col shadow-card flex-shrink-0 lg:w-64 lg:h-80;
+}
+.card-title{
+    @apply font-bold mb-1 lg:text-xl;
+}
+.section-title{
+    @apply text-primary text-2xl font-montserrat font-bold mb-5 dark:text-white;
+}
+
+.h2-title{
+    @apply font-semibold text-primary text-base mb-2 dark:text-white;
+}
+
+.navbar-text{
+    @apply text-primary text-base font-bold cursor-pointer dark:text-white;
+}
+
+.trending-card-subtitle{
+    @apply text-2xl font-bold mb-3;
+}
+.trending-card-description{
+    @apply text-base;
+}
